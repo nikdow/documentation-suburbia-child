@@ -21,13 +21,9 @@
                     <?php } ?>
 
         <?php the_content(); ?>
+        
+        <?php echo do_shortcode('[child_pages post_status="publish,private"]'); ?>
 		
-			<?php if($post->post_parent) {
-				$parent_link = get_permalink($post->post_parent); ?>
-			<a href="<?php echo $parent_link; ?>">Link to parent page</a><br/>
-			<?php } ?>
-
-        <?php edit_post_link(__('Edit this page')); ?>
     </div>
 	<?php endwhile; ?>
 	<?php else : ?>
