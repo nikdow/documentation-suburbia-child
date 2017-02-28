@@ -25,3 +25,10 @@ function code_shortcode( $atts, $content = null ) {
 	return '<span class="code">' . $content . '</span>';
 }
 add_shortcode( 'code', 'code_shortcode' );
+/*
+ * Allow subscribers to read private pages:
+ * i.e. anyone with a login can read private pages, it's automatic for editors and administrators
+ */
+$PrivateRole = get_role('subscriber');
+$PrivateRole -> add_cap('read_private_pages');
+$PrivateRole -> add_cap('read_private_posts');
