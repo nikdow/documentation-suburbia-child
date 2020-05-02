@@ -13,6 +13,11 @@ function jetpackme_is_mobile() {
     return jetpack_is_mobile();
 }
 
+add_filter( 'bcn_show_post_private', 'show_private');
+function show_private(){
+    return true;
+}
+
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 function theme_enqueue_styles() {
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
