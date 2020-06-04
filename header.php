@@ -14,7 +14,8 @@
                 echo ' | ' . sprintf( __('Page %s'), max($paged, $page));
         ?>
     </title>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="styleshe
+    <link type="text/css" media="all" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta http-equiv="Content-language" content="<?php bloginfo('language'); ?>" />
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" type="image/x-icon" />
