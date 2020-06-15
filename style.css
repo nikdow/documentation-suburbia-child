@@ -21,7 +21,7 @@ Theme Name:   Suburbia Child
 	padding: 15px 20px 0;
 }
 #single p, #single h1, #single h2, #single h3, #single h4, #single ul {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Noto Serif', 'Source Sans Pro', sans-serif;
 }
 div#single > ul{
 	margin-bottom: 1em;
