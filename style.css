@@ -5,7 +5,7 @@ Theme Name:   Suburbia Child
  Author:       Nik Dow
  Author URI:   http://www.cbdweb.net
  Template:     suburbia
- Version:      1.0.0
+ Version:      1.0.1
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain:  suburbia-child
@@ -21,10 +21,12 @@ Theme Name:   Suburbia Child
 	padding: 15px 20px 0;
 }
 #single p, #single h1, #single h2, #single h3, #single h4, #single ul {
-	font-family: 'Noto Serif', sans-serif;
+	font-family: Roboto,Helvetica Neue,sans-serif;
+	line-height: 1.5;
 }
 #single h1, #single h2, #single h3, #single h4 {
-	font-family: 'Roboto', sans-serif;
+	font-family: Roboto,Helvetica Neue,sans-serif;
+	line-height: 1.5;
 }
 div#single > ul{
 	margin-bottom: 1em;
